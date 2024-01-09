@@ -1,0 +1,5 @@
+/* MAIN IDEA
+
+   A program that generates a message containing a random cuisine and beverage for a select meal of the day.
+
+*/
