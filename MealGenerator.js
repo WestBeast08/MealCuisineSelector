@@ -17,9 +17,9 @@ function getRandomPosInt(max) {
 }
 
 let mealtime = mealtimes[getRandomPosInt(mealtimes.length)];
-let cuisine = mealtimes[getRandomPosInt(cuisines.length)];
-let drink = mealtimes[getRandomPosInt(drinks.length)];
+let cuisine = cuisines[getRandomPosInt(cuisines.length)];
+let drink = drinks[getRandomPosInt(drinks.length)];
 
 // Message will be stored and displayed by logging the message to the console through a concatenation of strings
 
-console.log(`${mealtime} ${cuisine} ${drink}`);
+console.log(`Today for your ${mealtime} you will be having amazing ${cuisine} food with a lovely glass of ${drink} to wash it down!`);
